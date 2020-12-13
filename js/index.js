@@ -1,3 +1,14 @@
+ScrollReveal({
+  duration : 600,
+  reset    : true
+});
+
+ScrollReveal().reveal(".h1", {delay : 500});
+ScrollReveal().reveal("#banner-inicio > p", {delay : 1000});
+ScrollReveal().reveal(".h2", {delay : 300});
+ScrollReveal().reveal("#reseña > p", {delay : 600});
+ScrollReveal().reveal("#servicios__cards", {delay : 600});
+ScrollReveal().reveal("#testimonial__cards", {delay : 600});
 
 const menuSlide = function() {
 

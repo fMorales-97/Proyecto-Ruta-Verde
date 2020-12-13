@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
 body {
   background-color: var(--color-gris);
 }

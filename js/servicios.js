@@ -1,3 +1,13 @@
+ScrollReveal({
+  duration : 600,
+  reset    : true
+});
+
+ScrollReveal().reveal(".h1", {delay : 500});
+ScrollReveal().reveal(".h2", {delay : 300});
+ScrollReveal().reveal(".info > p", {delay : 600});
+ScrollReveal().reveal(".recomendacion", {delay : 600});
+ScrollReveal().reveal(".grid > li", {delay : 600});
 
 const menuSlide = function() {
 

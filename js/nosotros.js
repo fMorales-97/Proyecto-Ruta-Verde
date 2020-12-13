@@ -1,3 +1,9 @@
+ScrollReveal({
+  duration : 600,
+  reset    : true
+});
+
+ScrollReveal().reveal(".h2", {delay : 300});
 
 const menuSlide = function() {
 
