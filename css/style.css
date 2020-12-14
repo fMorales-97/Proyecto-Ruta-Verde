@@ -79,11 +79,15 @@ p {
 }
 
 a {
+  font-family: var(--texto-parrafo);
   font-size: var(--parrafo-rg);
   text-decoration: none;
 }
 
 li {
+  color: var(--color-texto);
+  font-family: var(--texto-parrafo);
+  font-size: var(--parrafo-rg);
   list-style: none;
 }
 
@@ -488,9 +492,6 @@ footer {
 
 #revelacion li {
   border-left: 2px solid var(--color-acento);
-  color: var(--color-texto);
-  font-size: 1rem;
-  font-family: 'Heebo', sans-serif;
   padding-left: 1.5em;
 }
 
