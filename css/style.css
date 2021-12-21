@@ -645,6 +645,8 @@ form > div + div {
   margin-bottom: 1em;
 }
 
+button.btn { background-color: transparent; }
+
 .form__group:last-child {
   text-align: center;
 }
@@ -764,6 +766,10 @@ form > div + div {
     background-color: var(--color-primario);
     padding: 0 1.5em 1em 1.5em;
   }
+
+  /* ==== ==== ==== NOSOTROS ==== ==== ==== */
+
+  #revelacion { position: static; }
 
   /* ==== ==== ==== PAGINA CONTACTO ==== ==== ==== */
 
