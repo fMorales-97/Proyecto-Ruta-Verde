@@ -29,6 +29,10 @@ body {
   background-color: var(--color-gris);
 }
 
+h1,
+h2,
+h3 { line-height: 1.1; }
+
 .h1 {
   color: white;
   font-family: var(--texto-titulo);
@@ -76,6 +80,8 @@ p {
   color: var(--color-texto);
   font-family: var(--texto-parrafo);
   font-size: var(--parrafo-rg);
+  line-height: 1.5;
+  max-width: 70ch;
 }
 
 a {
@@ -88,12 +94,15 @@ li {
   color: var(--color-texto);
   font-family: var(--texto-parrafo);
   font-size: var(--parrafo-rg);
+  line-height: 1.5;
   list-style: none;
 }
 
 ul {
   padding: 0;
 }
+
+.mx-center { margin-inline: auto; }
 
 .bloque-relleno {
   background-color: white;
@@ -477,9 +486,18 @@ footer {
   z-index: 2;
 }
 
+.text-cols {
+  column-count: 2;
+  column-width: 240px;
+  max-width: 1280px;
+}
+
+.text-cols > p:first-child { margin-top: 0; }
+
 #revelacion {
   bottom: 0px;
   position: sticky;
+  width: fit-content;
   z-index: 1;
 }
 
